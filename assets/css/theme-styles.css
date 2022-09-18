@@ -1,0 +1,2215 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+
+	Author        : Abbas Rafeeq (https://themeforest.net/user/webfulcreationsvision/portfolio)
+	Template Name : Plumber Website Template
+	Version       : 1.0
+	CopyRight     : 2017 April @ www.webfulcreations.com
+
+
+	---------------------------
+	TABLE OF CONTENTS
+    ---------------------------
+	01 - General CSS
+	02 - Top Bar CSS
+	03 - Header CSS
+		 3.1 Full Width Header
+	04 - Banner CSS
+	05-  About Section CSS
+	06 - Section Title
+	07 - Need Service
+	08 - Services CSS
+	09 - Pricing Tables
+	10 - Our Products
+	11 - Projects CSS
+	12 - Section Stats
+	13 - Our team
+	14 - Why Choose Us
+	15 - News CSS
+	16 - Testimonials
+	17 - Reason Section
+	18 - Our Brands
+	19 - Call To Action
+	20 - Title Section
+	21 - Styles for Inner Pages
+		21.1 - Padding between Sections
+		21.2 - Sidebar CSS
+		21.3 - Boxed Page
+		21.4 - About Us
+		21.5 - FAQs CSS
+		21.6 - Appointment Page
+		21.7 - 404 Error CSS
+		21.8 - Single Service, Posts
+	22 - Page Preloader
+	23 - Footer CSS
+-------------------------------------------------------------------*/
+
+/*-------------------------
+	01 - General CSS
+-------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: #666666;
+}
+h1,
+h1 span,
+h1 a {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+h2,
+h2 span,
+h2 a {
+  font-size: 1.75rem;
+}
+h3,
+h3 span,
+h3 a {
+  font-size: 1.5rem;
+}
+h4,
+h4 span,
+h4 a {
+  font-size: 1.25rem;
+}
+h5,
+h5 span,
+h5 a {
+  font-size: 1rem;
+}
+h6,
+h6 span,
+h6 a {
+  font-size: 0.875rem;
+}
+label,
+p,
+ul,
+ol,
+a,
+blockquote,
+input,
+textarea,
+select,
+[type="date"],
+[type="text"],
+[type="email"],
+span {
+  font-size: 0.875rem;
+  line-height: 25px;
+  color: #666666;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #343434;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  font-weight: bold;
+  color: #42cae5;
+  font-family: "Raleway", sans-serif;
+}
+a {
+  color: #25707f;
+}
+a:hover {
+  color: #42cae5;
+}
+iframe {
+  width: 100%;
+  border: 0px;
+}
+.button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+.button.primary {
+  background-color: #25707f;
+}
+.button.bordered.primary {
+  background-color: transparent;
+  border: 1px solid #25707f;
+  color: #25707f;
+}
+.button.primary:hover {
+  background-color: #42cae5;
+  border: 1px solid #42cae5;
+  color: #fff;
+}
+.button.secondary {
+  background-color: #42cae5;
+}
+.button.secondary.bordered {
+  background-color: transparent;
+  border: 1px solid #42cae5;
+}
+.button.secondary:hover {
+  background-color: #25707f;
+  border: 1px solid #25707f;
+}
+.bordered-light {
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.bordered-light:hover {
+  background-color: #25707f !important;
+  border-color: #25707f !important;
+}
+.module {
+  position: relative;
+  margin-bottom: 80px;
+}
+.small-module {
+  position: relative;
+  margin-bottom: 40px;
+}
+.grey-bg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6f6f9;
+}
+dl dt {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.main-container {
+  width: 100%;
+  margin: auto;
+}
+hr {
+  border-bottom: 1px solid #ededed;
+}
+.row.relative-position {
+  position: relative;
+}
+/*-------------------------
+	General CSS Ends
+-------------------------*/
+
+/*-------------------------
+	02 - Top Bar CSS
+-------------------------*/
+.topBar {
+  background-color: #123840;
+}
+.topBar p,
+.topBar a {
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  line-height: 40px;
+  display: block;
+}
+.topBar i,
+.topBar a i,
+.topBar p i {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.topBar .menu li a {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 40px;
+  padding: 0px 16px;
+  font-size: 1rem;
+}
+.topBar .menu li a i {
+  font-size: 1rem;
+}
+.right-topBar a:hover,
+.topBar .menu li a:hover {
+  color: #42cae5;
+}
+.border {
+  height: 0px;
+  border-bottom: 40px solid rgba(73, 205, 255, 0.4);
+  border-right: 40px solid transparent;
+}
+.call-icon {
+  height: 0px;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid rgba(73, 205, 255, 0.4);
+}
+/*-------------------------
+	Top Bar CSS Ends
+-------------------------*/
+
+/*-------------------------
+	03 - Header CSS 
+-------------------------*/
+.header {
+  position: relative;
+  z-index: 99999999;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  moz-box-shadow: rgba(0, 0, 0, 0.239216) 0px 4px 9px 0px;
+  box-shadow: rgba(0, 0, 0, 0.239216) 0px 4px 9px 0px;
+  transform: translateZ(0);
+  webkit-transform: translateZ(0);
+  background-color: rgba(73, 225, 255, 0.08);
+}
+.header .logo img {
+  height: 40px;
+  width: auto;
+  margin-top: 7.5px;
+}
+.cart-wrap a,
+.search-wrap a {
+  font-size: 1rem;
+  line-height: 55px;
+  display: inline-block;
+  padding: 0px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+.search-icon-toggle.hover > i.fa-search:before {
+  content: "\f00d";
+}
+.cart-icon-toggle.hover > i.fa-shopping-basket:before {
+  content: "\f00d";
+}
+.search-wrap a:last-child {
+  margin-right: 0px;
+}
+#search-dropdown input[type="text"] {
+  margin-bottom: 0px;
+  min-width: 300px;
+}
+.search-dropdown {
+  width: 320px;
+  padding: 10px;
+}
+.search-dropdown .button {
+  position: absolute;
+  right: 9px;
+  top: 10px;
+}
+.shopping-cart-drop {
+  text-align: center;
+}
+.shopping-cart-drop .button {
+  margin-bottom: 0px;
+}
+.shopping-cart-drop h2 {
+  font-size: 1.35rem;
+  text-transform: uppercase;
+}
+.top-bar {
+  padding: 0px;
+  width: calc(100% - 62.5px);
+  float: left;
+  background-color: transparent;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+.top-bar ul {
+  margin: 0px;
+  font-weight: normal;
+  z-index: 9999;
+  background: #fff;
+}
+.top-bar ul .first-sub {
+  border-top: 2px solid;
+}
+.top-bar ul ul li a {
+  text-transform: capitalize;
+}
+.top-bar ul ul {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  z-index: 99999 !important;
+  border: 0px !important;
+}
+.top-bar .is-dropdown-submenu-parent {
+  position: relative;
+}
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a:after {
+  border: 0px;
+}
+.dropdown.menu.large-horizontal > li > a {
+  padding: 18.5px 15px;
+  padding-right: 15px !important;
+}
+.top-bar .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+  position: absolute;
+  max-width: 100%;
+  margin-top: 0px;
+}
+.top-bar li {
+  list-style: none;
+}
+.single-sub ul li a {
+  width: 100%;
+  padding: 10px;
+  font-weight: normal;
+}
+.responsive-menu ul li a {
+  display: block;
+  width: 100%;
+}
+.top-bar,
+.top-bar ul {
+  background-color: transparent;
+}
+.top-bar ul .first-sub {
+  border-top-color: #174873 !important;
+}
+.top-bar ul li a {
+  color: #123840;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.is-active a,
+.top-bar ul li a:hover {
+  color: #42cae5 !important;
+  border-bottom: 2px solid #123840 !important;
+}
+.top-bar .dropdown.menu > li.opens-right > .is-dropdown-submenu li a {
+  border-bottom: 0px !important;
+  background-color: #28748d;
+  color: #fff !important;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.top-bar .dropdown.menu > li.opens-right > .is-dropdown-submenu li a:before {
+  content: "\f0ad"; /**2663 25b6  */
+  margin-right: 10px;
+  font-family: fontawesome;
+}
+.top-bar .dropdown.menu > li.opens-right > .is-dropdown-submenu li a:hover {
+  color: #42cae5 !important;
+}
+.is-active ul li a {
+  background-color: #fff;
+  color: #123840 !important;
+}
+.menu .active > a {
+  background-color: #123840;
+  color: #fff;
+}
+.single-sub ul li a {
+  border-bottom-color: #123840 !important;
+}
+
+/*-------------------------
+	3.1 Full Width Header
+-------------------------*/
+.navigation-full-width {
+  background-color: #28748c;
+}
+.navigation-full-width ul li a {
+  color: #fff;
+  font-weight: normal;
+}
+.navigation-full-width .cart-wrap a,
+.navigation-full-width .search-wrap a {
+  color: #fff;
+}
+.icon-box i {
+  float: left;
+  font-size: 4.1rem;
+  margin-right: 20px;
+  line-height: 55px;
+}
+.icon-box .information-side {
+  float: right;
+}
+.icon-box p,
+.icon-box h3 {
+  margin-bottom: 0px;
+  text-align: right;
+}
+.icon-box p {
+  line-height: 15px;
+  text-transform: uppercase;
+  word-spacing: 0px;
+  letter-spacing: 6.7px;
+}
+.icon-box h3 {
+  line-height: 40px;
+  font-size: 2.45rem;
+  font-weight: lighter;
+}
+/*-------------------------
+	Header CSS Ends
+-------------------------*/
+
+/*-------------------------
+	04 - Banner CSS 
+-------------------------*/
+.main-banner {
+  position: relative;
+}
+.transparent-background-one,
+.transparent-background {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  position: relative;
+  background-color: rgba(16, 16, 16, 0.8);
+}
+.transparent-background:after {
+  content: "";
+  /* background: url(../images/help/background-effect.jpg); */
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+/* .transparent-background-one:after {
+  content: "";
+  background: url(../images/help/background-effect3.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+.banner-text {
+  width: calc(100% - 340px);
+}
+.banner-text h2 span {
+  text-transform: uppercase;
+  color: #42cae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.3rem;
+  font-weight: normal;
+}
+.banner-text h2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.3rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+}
+.banner-text h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.banner-text h3 i {
+  margin-right: 10px;
+}
+.banner-text .button {
+  margin-bottom: 0px;
+}
+.banner-image img {
+  position: absolute;
+  bottom: 0px;
+  right: 57px;
+  width: 420px !important;
+}
+.banner-form:hover .main-banner {
+  transform: none !important;
+}
+.banner-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 40px 30px 40px 30px;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% + 250px);
+  z-index: 5;
+  margin-bottom: 0px;
+}
+.banner-form h6 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #42cae5;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.banner-form h4 {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-form [type="date"]:focus,
+.banner-form [type="text"]:focus,
+.banner-form [type="email"]:focus {
+  background-color: transparent !important;
+  border: 0px;
+}
+.banner-form [type="date"],
+.banner-form [type="text"],
+.banner-form [type="email"],
+.banner-form textarea {
+  color: #fff;
+  padding: 10px 0px;
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #42cae5;
+  box-shadow: none !important;
+}
+.banner-form input[type="email"]::-webkit-input-placeholder,
+.banner-form input[type="phone"]::-webkit-input-placeholder,
+.banner-form input[type="tel"]::-webkit-input-placeholder,
+.banner-form select::-webkit-input-placeholder,
+.banner-form textarea::-webkit-input-placeholder,
+.banner-form input[type="text"]::-webkit-input-placeholder {
+  color: #ededed;
+  opacity: 1;
+}
+.banner-form input[type="email"]::-moz-placeholder,
+.banner-form input[type="phone"]::-moz-placeholder,
+.banner-form input[type="tel"]::-moz-placeholder,
+.banner-form select::-moz-placeholder,
+.banner-form textarea::-moz-placeholder,
+.banner-form input[type="text"]::-moz-placeholder {
+  color: #ededed;
+  opacity: 1;
+}
+.banner-form input[type="email"]:-ms-input-placeholder,
+.banner-form input[type="phone"]:-ms-input-placeholder,
+.banner-form input[type="tel"]:-ms-input-placeholder,
+.banner-form select:-ms-input-placeholder,
+.banner-form textarea:-ms-input-placeholder,
+.banner-form input[type="text"]:-ms-input-placeholder {
+  color: #ededed;
+  opacity: 1;
+}
+.banner-form input[type="text"]:-moz-placeholder,
+.banner-form input[type="email"]:-moz-placeholder,
+.banner-form input[type="phone"]:-moz-placeholder,
+.banner-form input[type="tel"]:-moz-placeholder,
+.banner-form select:-moz-placeholder,
+.banner-form textarea:-moz-placeholder,
+.banner-form input[type="text"]:-moz-placeholder {
+  color: #ededed;
+  opacity: 1;
+}
+.banner-form .button {
+  padding: 25px 25px;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.banner-form .button:hover {
+  border: 1px solid #fff;
+  color: #014a7f;
+}
+.owl-controls {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -47.5px;
+}
+.owl-controls .owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 1px solid #4ae1ff;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.owl-controls .owl-dot.active {
+  background-color: #4ae1ff;
+}
+.dark-bg .owl-controls .owl-dot {
+  background-color: #fff;
+  border-color: #fff;
+}
+.dark-bg .owl-controls .owl-dot.active {
+  background-color: #4ae1ff;
+  border-color: #4ae1ff;
+}
+/*-------------------------
+	Banner CSS Ends
+-------------------------*/
+
+/*-------------------------
+	05- About Section CSS
+-------------------------*/
+.about-section {
+  background-color: #fff;
+}
+.about-section h2,
+.about-section h2 span,
+.about-section h4 {
+  font-weight: normal;
+}
+.about-section h2,
+.about-section h2 span {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.about-section h4 {
+  margin-bottom: 18px;
+  font-style: italic;
+}
+.about-section .description-side p:last-child {
+  margin-bottom: 0px;
+}
+.about-image img {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+}
+.section-inner {
+  position: relative;
+  background-color: #f6f6f9;
+  padding: 20px 15px;
+}
+.section-inner:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background: #42cae5;
+}
+.section-inner:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.section-icon {
+  float: left;
+}
+.section-icon i {
+  font-size: 3rem;
+  color: #4f4f4f;
+}
+.section-tex {
+  float: right;
+  width: calc(100% - 70px);
+}
+.section-tex h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+.section-tex p {
+  font-size: 0.8125rem;
+  margin-bottom: 0px;
+}
+/*-------------------------
+	About Section Ends
+-------------------------*/
+
+/*-------------------------
+	06 - Section Title
+-------------------------*/
+.section-title {
+  position: relative;
+  max-width: calc(75rem - 1.875rem);
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.section-title h2 span,
+.section-title h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section-title h2 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0px;
+}
+.section-title p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0px;
+}
+.section-title h2:after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 0px;
+  border-bottom: 2px solid #42cae5;
+  margin-left: 20px;
+}
+.section-title .button {
+  margin-bottom: 0px;
+  margin-top: 13.265px;
+}
+.dark-bg .section-title h2:after {
+  border-bottom: 2px solid #fff;
+}
+.dark-bg .section-title h2 {
+  color: #fff;
+}
+.dark-bg .section-title p {
+  color: #ccc;
+}
+/*-------------------------
+	Section Title Ends
+-------------------------*/
+
+/*-------------------------
+	07 - Need Service
+-------------------------*/
+.service-banner {
+  position: relative;
+  background-color: #37a8bf;
+}
+.service-banner img {
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+}
+.services-box {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.services-box h2 {
+  color: #fff;
+  line-height: 1px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.services-box .button {
+  position: absolute;
+  left: 50%;
+  margin-left: 65px;
+}
+.services-box p {
+  color: #fff;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 1rem;
+}
+.services-box h2 i {
+  margin-right: 10px;
+}
+.call-box {
+  color: #fff;
+  font-size: 1.875rem;
+  margin-top: 40px;
+}
+/*-------------------------
+	Need Service Ends
+-------------------------*/
+
+/*-------------------------
+	08 - Services CSS 
+-------------------------*/
+.service:hover,
+.service:hover .service-text p,
+.service:hover .service-text h2 {
+  background-color: #37a8bf;
+  color: #fff;
+  cursor: pointer;
+}
+.service:hover .service-icon {
+  border: 0px;
+}
+.services .columns {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.services .columns:nth-child(-n + 3) {
+  padding-top: 0px;
+}
+.services .columns:nth-last-child(-n + 3) {
+  padding-bottom: 0px;
+}
+.service {
+  padding: 20px;
+  background-color: #fff;
+}
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #28748c;
+  text-align: center;
+}
+.service-icon i {
+  margin-top: 10px;
+  color: #28748c;
+  font-size: 2.5rem;
+}
+.service-text h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+}
+.service-text p {
+  margin-bottom: 0px;
+}
+.service-type-two .service-icon {
+  border: 0px;
+  margin: 0px;
+  width: auto;
+  height: auto;
+}
+.service-type-two h2 {
+  border-bottom: 1px solid #25707f;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.service-type-two h2 a i,
+.service-type-two h2 i {
+  background-color: #25707f;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+/*-------------------------
+	Service CSS  Ends
+-------------------------*/
+
+/*-------------------------
+	09 - Pricing Tables 
+-------------------------*/
+.plumber-pricing-tables {
+  background: #f7f7f7;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.plumber-pricing-tables .pricing-head {
+  position: relative;
+  padding: 25px 0 0px;
+}
+.plumber-pricing-tables h3 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 8px 0 17px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+.plumber-pricing-tables .price {
+  border: 1px solid;
+  display: block;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  padding-top: 53px;
+  margin: auto;
+}
+.plumber-pricing-tables .price sup {
+  top: -25px;
+  font-size: 20px;
+}
+.plumber-pricing-tables .price-digit {
+  font-size: 60px;
+  font-weight: bold;
+}
+.plumber-pricing-tables .pricing-list {
+  padding-top: 25px;
+  margin-left: 0px;
+}
+.plumber-pricing-tables .pricing-list li:nth-child(odd) {
+  background: #ededed;
+}
+.plumber-pricing-tables .pricing-list li {
+  display: block;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+.plumber-pricing-tables:hover,
+.plumber-pricing-tables.active {
+  box-shadow: 0 1px 10px #ccc;
+}
+/*-------------------------
+	Pricing Table Ends
+-------------------------*/
+
+/*-------------------------
+	10 - Our Products
+-------------------------*/
+.single-product .product-info {
+  text-align: center;
+}
+.single-product .product-info .button {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.button.rounded {
+  border-radius: 20px;
+}
+.button.small {
+  padding: 10px 15px;
+}
+.product-info .price {
+  margin-bottom: 10px;
+}
+.product-info .price span {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+.product-info .price span.old {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-left: 15px;
+  text-decoration: line-through;
+}
+.product-info h6 a {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+.product-quantity {
+  width: 50px;
+}
+/*-------------------------
+	Our Products Ends
+-------------------------*/
+
+/*-------------------------
+	11 - Projects CSS 
+-------------------------*/
+.projects-wrap {
+  position: relative;
+}
+.projects-wrap:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.projects-wrap .project {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 2px;
+  position: relative;
+  cursor: pointer;
+}
+.projects-wrap .project img {
+  z-index: 5;
+}
+.projects-wrap .project .project-detail {
+  z-index: 10;
+  position: absolute;
+  top: 0px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-color: rgba(16, 16, 16, 0.8);
+  padding: 50px 25px;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.project:hover > .project-detail {
+  opacity: 1;
+}
+.project .project-detail p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+.project .project-detail a {
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 2rem;
+}
+.project .project-detail a:hover {
+  color: #42cae5;
+}
+/*-------------------------
+	Projects CSS Ends
+-------------------------*/
+
+/*-------------------------
+	12 - Section Stats 
+-------------------------*/
+.section-stats:after {
+  content: "";
+  background-color: rgba(16, 16, 16, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.section-stats {
+  background: url(../images/help/background-effect3.jpg) repeat fixed center
+    center / cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 2;
+}
+.stats-box {
+  text-align: center;
+}
+.stats-box i {
+  color: #48defb;
+  font-size: 2.5rem;
+  border: 1px solid #48defb;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.stats-box h2 {
+  color: #48defb;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.stats-box p {
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 2rem;
+}
+/*-------------------------
+	Section Stats Ends 
+-------------------------*/
+
+/*-------------------------
+	13 - Our team 
+-------------------------*/
+.our-team .team {
+  padding: 5px;
+}
+.team-box {
+  padding: 4px;
+  position: relative;
+  background-color: #f1f1f1;
+}
+.team-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.team-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.6s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.team-box:hover .team-detail {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.team-text {
+  background-color: #37a8bf;
+  text-align: center;
+  padding: 10px 0px;
+  z-index: 999999999;
+  position: relative;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+}
+.team-icons {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.team-box ul {
+  margin-bottom: 20px;
+}
+.team-box ul li a {
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.7rem 0.7rem;
+}
+.team-box ul li a:hover {
+  color: #42cae5;
+}
+.team-text p,
+.team-text h2 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+.team-text h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+/*-------------------------
+	Our team Ends 
+-------------------------*/
+
+/*-------------------------
+	14 - Why Choose Us 
+-------------------------*/
+.why-choose-us {
+  /* background: url(../images/help/background-effect2.jpg) repeat fixed center
+    center / cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 3;
+}
+.why-choose-us:after {
+  content: "";
+  background-color: rgba(16, 16, 16, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.why-choose-us-border {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.why-choose-us-border:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  border-bottom: 591px solid rgba(254, 254, 254, 0.9);
+  border-left: 750px solid rgba(254, 254, 254, 0.9);
+  border-right: 370px solid rgba(254, 254, 254, 0);
+  z-index: 0;
+}
+.why-us-wrapper {
+  position: relative;
+}
+.why-us-wrapper h1 {
+  float: left;
+  font-size: 3rem;
+  line-height: 30px;
+  margin-right: 25px;
+  margin-top: 2px;
+}
+.why-us-wrapper p {
+  margin-bottom: px;
+  margin-left: 60px;
+}
+/*-------------------------
+	Why Choose Us Ends 
+-------------------------*/
+
+/*-------------------------
+	15 - News CSS  
+-------------------------*/
+.news img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.news-text h2 a {
+  font-weight: normal;
+  font-size: 1.45rem;
+}
+.news-text p {
+  text-align: justify;
+}
+.news-text {
+  border-bottom: 1px dashed #ccc;
+}
+.news-date span {
+  margin: 0px 15px;
+}
+.news-date a {
+  color: #000000;
+}
+.news-date a:hover {
+  color: #49e1ff;
+}
+.news-date {
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+  display: inline-block;
+}
+.news-date p,
+.news-date h2 {
+  float: left;
+  margin-bottom: 0px;
+}
+.news-date p {
+  margin: 0px 0px 0px 35px;
+}
+.news-date h2 {
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+/*-------------------------
+	News CSS Ends 
+-------------------------*/
+
+/*-------------------------
+	16 - Testimonials
+-------------------------*/
+.dark-bg:after {
+  content: "";
+  background-color: rgba(16, 16, 16, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.testimonials {
+  /* background: url(../images/help/background-effect2.jpg) repeat fixed center
+    center / cover; */
+  padding-top: 60px;
+  padding-bottom: 95px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 2;
+}
+.testimonials-section {
+  position: relative;
+}
+.testimonials-section .title {
+  margin-bottom: 0px;
+}
+.testimonials-section .title img {
+  width: 75px !important;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
+  float: left;
+}
+.dark-bg .testimonials-section .name {
+  color: #fff;
+}
+.testimonials-section .name {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.dark-bg .testimonials-section .designation {
+  color: #fff;
+}
+.testimonials-section .designation {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.testimonials-section p {
+  padding: 25px 60px;
+  text-align: justify;
+  border: 1px solid #8a8a8a;
+  background-color: #f7f7f7;
+  margin-bottom: 0px;
+}
+.testimonials-section .title p span {
+  font-size: 2.5rem;
+  color: #000000;
+}
+.testimonials-box {
+  position: relative;
+}
+.testimonials-box .owl-controls {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -35.5px;
+}
+/*-------------------------
+	Testimonials Ends
+-------------------------*/
+
+/*-------------------------
+	17 - Reason Section
+-------------------------*/
+.accordion-title {
+  background-color: #f8f8f8;
+  color: #343434;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1.25rem 1.875rem;
+}
+.accordion-title:focus,
+.accordion-title:hover {
+  background-color: #f8f8f8f;
+  color: #343434 !important;
+}
+.accordion-title:before {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  right: 0px;
+  margin-top: -0.5rem;
+  content: "+";
+}
+.is-active .accordion-title {
+  background-color: #ededed;
+  color: #343434 !important;
+  border-bottom: 0px !important;
+}
+.estimate-form {
+  position: relative;
+}
+.estimate-form .button {
+  margin-bottom: 0px;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="tel"],
+select,
+textarea {
+  background-color: #fcfcfc;
+  box-shadow: 0px;
+}
+input[type="email"]::-webkit-input-placeholder,
+input[type="phone"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+input[type="email"]::-moz-placeholder,
+input[type="phone"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+select::-moz-placeholder,
+textarea::-moz-placeholder,
+input[type="text"]::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+input[type="email"]:-ms-input-placeholder,
+input[type="phone"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+select:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="phone"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+select:-moz-placeholder,
+textarea:-moz-placeholder,
+input[type="text"]:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+/*-------------------------
+	Reason Section Ends
+-------------------------*/
+
+/*-------------------------
+	18 - Our Brands
+-------------------------*/
+.brand-logo {
+  padding: 28px;
+  float: left;
+}
+.brand-logo:after {
+  clear: both;
+  display: inline-block;
+  content: "";
+}
+.brand-logo .thumbnail {
+  margin-bottom: 0px;
+  border: 1px solid #ededed;
+  padding: 3px;
+  opacity: 0.8;
+  height: auto !important;
+  width: 180px;
+}
+.brand-logo .thumbnail:hover {
+  opacity: 1;
+}
+/*-------------------------
+	Our Brands Ends
+-------------------------*/
+
+/*-------------------------
+	19 - Call To Action
+-------------------------*/
+.call-to-action {
+  background-color: #42cae5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+.call-to-action h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+.call-to-action h2 span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.call-to-action p {
+  font-size: 1.05rem;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.call-us h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #123840;
+}
+.call-us p {
+  font-size: 1.55rem;
+  font-weight: bold;
+  color: #123840;
+}
+.callus-icon {
+  margin-top: 7px;
+  font-size: 4.2rem;
+  margin-right: 25px;
+  color: #123840;
+}
+/*-------------------------
+	Call to Action Ends
+-------------------------*/
+
+/*-------------------------
+	20 - Title Section
+-------------------------*/
+.title-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  background-color: rgba(18, 56, 64, 0.9);
+  text-align: center;
+}
+.title-section::after {
+  content: "";
+  background: url("../images/help/title-bg.jpg");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+}
+.title-section h1 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  font-size: 3rem;
+}
+.title-section ul {
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+}
+.breadcrumbs li,
+.breadcrumbs li a {
+  font-size: 0.65rem;
+}
+.breadcrumbs li,
+.breadcrumbs li a {
+  color: #fff;
+}
+/*-------------------------
+	Title Section Ends
+-------------------------*/
+
+/*-------------------------
+	21 - Styles for Inner 
+		 Pages
+-------------------------*/
+
+/*-------------------------
+	21.1 - Padding between 
+	Sections
+-------------------------*/
+.padding-between .medium-6,
+.padding-between .medium-4,
+.padding-between .medium-3,
+.padding-between .medium-12 {
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+}
+.padding-between .medium-6:nth-child(-n + 2),
+.padding-between .medium-4:nth-child(-n + 3),
+.padding-between .medium-3:nth-child(-n + 4) {
+  margin-top: 0px;
+}
+.padding-between .medium-6:nth-last-child(-n + 2),
+.padding-between .medium-4:nth-last-child(-n + 3),
+.padding-between .medium-3:nth-last-child(-n + 4) {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 64em) {
+  .padding-between .large-3:nth-child(-n + 4) {
+    margin-top: 0px;
+  }
+  .padding-between .large-3:nth-last-child(-n + 4) {
+    margin-bottom: 0px;
+  }
+}
+.padding-between .medium-12:first-child {
+  margin-top: 0px;
+}
+.padding-between .medium-12:last-child {
+  margin-bottom: 0px;
+}
+
+/*-------------------------
+	21.2 - Sidebar CSS
+-------------------------*/
+.widget h2 {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background-color: #f7f7f7;
+  padding: 15px 10px;
+  border-bottom: 1px solid #ededed;
+}
+.widget h2:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.sidebar .widget {
+  margin-bottom: 0.9375rem;
+  margin-top: 0.9375rem;
+  border: 1px solid #ededed;
+}
+.sidebar .widget:first-child {
+  margin-top: 0px;
+}
+.sidebar .widget:last-child {
+  margin-bottom: 0px;
+}
+.widget-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.sidebar .last-item {
+  margin-bottom: 0px;
+}
+.sidebar .widget ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.sidebar .widget ul li a {
+  color: #343434;
+}
+.sidebar .widget ul li {
+  border-bottom: 1px solid #f7f7f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sidebar .widget ul li:first-child {
+  padding-top: 0px;
+}
+.sidebar .widget ul li:last-child {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+.sidebar .popular-post img {
+  margin-right: 5px;
+  margin-bottom: 3px;
+  width: 75px;
+  height: auto;
+}
+.sidebar .popular-post a strong {
+  margin-bottom: 10px;
+  display: block;
+}
+.sidebar .popular-post p {
+  margin-bottom: 0px;
+}
+.sidebar .popular-post {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f7f7f7;
+}
+.sidebar .popular-post:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.sidebar .widget-content .tags li {
+  float: left;
+  border-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.tags {
+  list-style: none;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.tags li:first-child {
+  padding-left: 0px;
+}
+.widget .tags li {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.tags li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.widget .tags li a {
+  padding: 5px 10px;
+  text-wrap: suppress;
+  white-space: nowrap;
+  margin: 5px;
+  display: inline-block;
+}
+.tags li a {
+  background-color: #ededed;
+}
+.sidebar .widget-content,
+.sidebar .search {
+  position: relative;
+}
+.sidebar .search input[type="text"] {
+  margin-bottom: 0px;
+}
+.sidebar .button {
+  margin-bottom: 0px;
+}
+.sidebar .search {
+  padding-top: 10px;
+}
+.sidebar .search .button {
+  position: absolute;
+  top: 0px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  right: 10px;
+  padding: 10px 15px;
+}
+
+/*-------------------------
+	21.3 - Boxed Page
+-------------------------*/
+.boxed {
+  max-width: 1250px;
+  margin: auto;
+  box-shadow: 0px 0px 3px 1px #ccc;
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+body.box {
+  background-image: url(../images/help/background-effect2.jpg);
+  z-index: -10;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box .main-banner {
+  overflow: hidden;
+}
+
+/*-------------------------
+	21.4 - About Us
+-------------------------*/
+.mission-wrapper ul li:before {
+  margin-right: 10px;
+  display: block;
+  float: left;
+  width: 20px;
+  font-size: 1rem;
+  color: #666;
+  content: "\f05d";
+  font-family: FontAwesome;
+}
+.mission-wrapper ul li:after {
+  display: block;
+  clear: both;
+}
+.mission-vision {
+  background-image: url(../images/help/home_plumber_slider_image.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/*-------------------------
+	21.5 - FAQs CSS
+-------------------------*/
+.sidebar .icon-box {
+  margin-bottom: 25px;
+}
+.icon-box {
+  position: relative;
+  clear: both;
+}
+.sidebar .icon-box i {
+  font-size: 30px;
+  float: none;
+  margin-right: 0px;
+}
+.sidebar .icon-side {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 55px;
+  color: #fff !important;
+  background-color: #25707f;
+  margin-right: 7px;
+}
+.info-side {
+  margin-left: 7px;
+  font-size: 18px;
+  padding-top: 0px;
+  width: calc(100% - 70px);
+}
+.sidebar .info-side p strong {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343434;
+  text-transform: capitalize;
+}
+.sidebar .icon-box p {
+  margin-bottom: 0px;
+  line-height: 25px;
+  text-transform: lowercase;
+  word-spacing: 0px;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: normal;
+}
+.sidebar .icon-box:last-child {
+  margin-bottom: 0px;
+}
+
+/*-------------------------
+	21.6 - Appointment Page
+-------------------------*/
+.profile-card img {
+  width: 100%;
+  text-align: center;
+  border-radius: 100%;
+}
+.profile-card h2,
+.profile-card p {
+  text-align: center;
+}
+.profile-card h2 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.contact-card ul {
+  list-style: none;
+  margin-left: 0px;
+}
+.contact-card ul li {
+  background-color: #123840;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.contact-card ul li i {
+  border-right: 5px solid #fff;
+  width: 50px;
+  text-align: center;
+}
+.contact-card ul li i,
+.contact-card ul li span {
+  line-height: 25px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+.contact-card.no-bg ul li i {
+  background-color: #123840;
+}
+.contact-card.no-bg ul li {
+  background-color: transparent;
+}
+
+/*-------------------------
+	21.7 - 404 Error CSS
+-------------------------*/
+.pageerror h2 {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 133px;
+}
+.pageerror h3 {
+  text-align: center;
+}
+.error-page-form {
+  margin: auto !important;
+  margin-top: 30px;
+  float: none !important;
+}
+
+/*-------------------------
+	21.8 - Single Service, 
+		   Posts 
+-------------------------*/
+.post-thumbnail img {
+  width: 100%;
+  margin-bottom: 15px;
+  height: auto;
+}
+.bar-container {
+  position: relative;
+  font-size: 1rem;
+}
+.bar-container label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.percentage-show {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 9999;
+}
+.page-filter {
+  padding-top: 15px;
+  margin-top: 35px;
+  border-top: 1px solid #ededed;
+}
+.page-filter .pagination {
+  text-align: center;
+}
+.page-filter .pagination li.current a {
+  color: #fff;
+}
+.product-detail h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.product-meta {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+.product-detail .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.single-products-page .price .normal {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.price .old {
+  margin-left: 15px;
+  font-weight: normal;
+  font-size: 90%;
+  text-decoration: line-through;
+}
+.add-cart-option {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.add-cart-option input[type="number"] {
+  max-width: 75px;
+  float: left;
+  margin-right: 20px;
+}
+.product-share {
+  padding-top: 15px;
+  border-top: 1px solid #ededed;
+}
+.post-share a {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.single-post .news-text {
+  padding-bottom: 25px;
+}
+.sharing-posts {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sharing-posts .tags a {
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.author-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.author-box p {
+  margin-bottom: 0px;
+}
+.contact-map {
+  margin-bottom: 25px;
+}
+
+/*-------------------------
+	Inner Pages Ends
+-------------------------*/
+
+/*-------------------------
+	22 - Page Preloader  
+-------------------------*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 99999999999;
+  background-color: #f7f7f7;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #24707e;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes sk-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+/*-------------------------
+	Page Preloader Ends  
+-------------------------*/
+
+/*-------------------------
+	23 - Footer CSS  
+-------------------------*/
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer {
+  background-color: #123840;
+}
+.footer-top .columns {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 28%;
+}
+.footer-top .columns:first-child {
+  padding-left: 0.9375rem;
+}
+.footer-box img {
+  margin-bottom: 30px;
+}
+.footer-box ul {
+  list-style: none;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.footer-box ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-box ul li a {
+  color: #fff;
+}
+.footer-box ul li a:hover {
+  color: #49e1ff;
+}
+.footer-box i {
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.3125rem;
+}
+.footer-box h2 {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 1.375rem;
+  color: #49e1ff;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.footer-box h2:before {
+  content: "";
+  left: 0px;
+  bottom: -10px;
+  right: 0;
+  position: absolute;
+  border-bottom: 1px solid #25707f;
+  width: 100%;
+}
+.footer-box h2:after {
+  content: "";
+  left: 0px;
+  bottom: -10px;
+  right: 0;
+  position: absolute;
+  border: 1px solid #49e1ff;
+  width: 80px;
+  height: 2px;
+}
+.footer-top {
+  background-image: url(../images/help/footer-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.border-btm ul li {
+  border-bottom: 1px solid rgba(37, 112, 127, 0.46);
+}
+.pull-right ul li a,
+.copyrightinfo a,
+.copyrightinfo {
+  color: #fff;
+  line-height: 30px;
+}
+.pull-right ul li a:hover,
+.copyrightinfo a:hover {
+  color: #49e1ff;
+}
+.footer-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #24707e;
+}
+.pull-right ul li a {
+  padding: 0px 5px;
+  margin-right: 20px;
+}
+.pull-right ul li i {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-bottom ul li:last-child a {
+  border: 0px;
+  padding-right: 0px;
+}
+#top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  background-color: #123840;
+  display: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 30px;
+  box-shadow: 0px 1px 1px #ededed;
+  z-index: 999;
+}
+/*---------------------------
+	Footer CSS Ends
+----------------------------*/
+
+/**
+	If you want to add your CSS do that in style.css or
+	Add your own Stylesheet to template . Do not 
+	edit this file to stay safe from update conflicts.
+	
+	Thank you!
+*/

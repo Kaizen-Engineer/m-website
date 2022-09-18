@@ -1,0 +1,572 @@
+/**
+ *
+ * Responsive Styles For Plumber's Template
+ *
+ * This File have all responsive CSS
+ */
+
+/**
+  *	Only For Small Screens
+  *
+  * Width Less than 40*16 = 640px
+  */
+@media screen and (max-width: 39.9375em) {
+  /*All Reponsive Code Goes here*/
+  .main-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .topBar .text-left,
+  .topBar .text-right {
+    text-align: center;
+  }
+  .topBar .border,
+  .call-icon {
+    border-bottom: 0px;
+    height: auto;
+    border-right: 0px;
+    border-left: 0px;
+    text-align: center;
+  }
+
+  /* HEADER */
+  .header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .header .logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .nav-wrap {
+    background-color: #123840;
+  }
+  .header .logo img {
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+  }
+  .top-bar {
+    width: 100%;
+  }
+  .top-bar-title {
+    display: block;
+    line-height: 46px;
+    float: none;
+    padding-right: 0px;
+    padding-top: 15px;
+  }
+  .top-bar-title span:first-child {
+    display: table;
+    margin: auto;
+  }
+  .top-bar-title span:first-child {
+    display: table;
+    margin: auto;
+  }
+  .navigation-icon-title {
+    display: none;
+  }
+  .search-wrap {
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .cart-wrap a,
+  .search-wrap a {
+    line-height: 40px;
+    color: #fff;
+  }
+  .cart-icon-toggle {
+    margin-left: 0px !important;
+  }
+  .top-bar-title a {
+    color: #fff;
+  }
+  .menu-icon.dark:after {
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+  }
+  .top-bar a {
+    color: #fff !important;
+    font-weight: normal;
+  }
+  .top-bar,
+  .top-bar ul {
+    width: 100%;
+  }
+  .top-bar ul ul {
+    margin-left: 25px;
+  }
+  .top-bar ul li a {
+    font-weight: normal;
+  }
+  .title-section h1 {
+    font-size: 2.2rem;
+  }
+  .services .columns {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* Columns CSS */
+  .row .service-wrap .small-12,
+  .row .small-12 {
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+  }
+  .row .service-wrap .small-12:last-child,
+  .row .small-12:last-child {
+    margin-bottom: 0px;
+  }
+  .row .service-wrap .small-12:first-child,
+  .row .small-12:first-child {
+    margin-top: 0px;
+  }
+  .appointment-form .small-12,
+  .footer-bottom .small-12,
+  .estimate-form .small-12,
+  .title-section .small-12,
+  .topBar .small-12,
+  .navigation .small-12,
+  .header .small-12 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .call-to-action .call-us {
+    margin-top: 30px;
+  }
+  .call-to-action .float-right,
+  .call-to-action .float-left {
+    text-align: center;
+    float: none !important;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom .pull-right {
+    float: none !important;
+  }
+  .footer-bottom ul.menu {
+    text-align: center;
+  }
+  .footer-bottom ul.menu li {
+    display: inline-block;
+  }
+  .footer-top .columns {
+    width: 100%;
+  }
+  .mission-vision .mission-wrapper .medium-4 {
+    display: block;
+  }
+  .mission-vision .medium-8 {
+    margin-bottom: 0px;
+  }
+  .mission-vision ul {
+    margin-bottom: 0px;
+  }
+  .mission-vision .medium-4 {
+    display: none;
+  }
+  .mission-vision,
+  .footer-top {
+    background-image: none;
+  }
+  .section-title {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    text-align: center;
+  }
+  .section-title h2 span,
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title h2 {
+    margin-bottom: 5px;
+    display: block;
+  }
+  .section-title h2:after {
+    display: none;
+  }
+  .brand-logo {
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    height: 60px;
+  }
+  .brand-logo .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  .projects-wrap .project {
+    width: 50%;
+  }
+  .projects-wrap .project-detail p {
+    display: none;
+  }
+  .projects-wrap .project .project-detail {
+    padding-top: 79px;
+    padding-bottom: 79px;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .testimonials-box .owl-controls {
+    bottom: -25px;
+  }
+  .product-img.thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  .pro-rating.float-right {
+    float: none !important;
+    margin-top: 10px;
+  }
+  .main-banner .banner-form,
+  .main-banner .banner-image {
+    display: none;
+  }
+  .banner-text h2 span,
+  .banner-text h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  .banner-text {
+    width: 100%;
+  }
+  .transparent-background-one,
+  .transparent-background {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .banner-text h3,
+  .banner-text h3 i {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .service-banner img {
+    display: none;
+  }
+  .services-box h2 {
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .services-box p {
+    text-align: center;
+  }
+  .call-box {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  .section-title .button {
+    margin-bottom: 15px !important;
+    float: none !important;
+  }
+  .header .medium-8 .icon-box {
+    display: none;
+  }
+}
+
+/**
+ *
+ * Medium Screens
+ * Ipad and Larger Screens Than Mobiles.
+ *
+ */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .topBar .border,
+  .call-icon {
+    border-bottom: 0px;
+    height: auto;
+    border-right: 0px;
+    border-left: 0px;
+  }
+  /* HEADER */
+  .header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .header .logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .nav-wrap {
+    background-color: #123840;
+  }
+  .header .logo img {
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+  }
+  .top-bar {
+    width: 100%;
+  }
+  .top-bar-title {
+    display: block;
+    line-height: 46px;
+    float: none;
+    padding-right: 0px;
+    padding-top: 15px;
+  }
+  .top-bar-title span:first-child {
+    display: table;
+    margin: auto;
+  }
+  .top-bar-title span:first-child {
+    display: table;
+    margin: auto;
+  }
+  .navigation-icon-title {
+    display: none;
+  }
+  .search-wrap {
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .cart-wrap a,
+  .search-wrap a {
+    line-height: 40px;
+    color: #fff;
+  }
+  .cart-icon-toggle {
+    margin-left: 0px !important;
+  }
+  .top-bar-title a {
+    color: #fff;
+  }
+  .menu-icon.dark:after {
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+  }
+  .top-bar a {
+    color: #fff !important;
+    font-weight: normal;
+  }
+  .top-bar,
+  .top-bar ul {
+    width: 100%;
+  }
+  .top-bar ul ul {
+    margin-left: 25px;
+  }
+  .top-bar ul li a {
+    font-weight: normal;
+  }
+  .title-section h1 {
+    font-size: 2.2rem;
+  }
+
+  /* Columns CSS */
+  .call-to-action .call-us {
+    margin-top: 30px;
+  }
+  .call-to-action .float-right,
+  .call-to-action .float-left {
+    text-align: center;
+    float: none !important;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom .pull-right {
+    float: none !important;
+  }
+  .footer-bottom ul.menu {
+    text-align: center;
+  }
+  .footer-bottom ul.menu li {
+    display: inline-block;
+  }
+  .footer-top .columns {
+    width: 100%;
+  }
+  .mission-vision .mission-wrapper .medium-4 {
+    display: block;
+  }
+  .mission-vision .medium-8 {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .about-section-top .medium-6 {
+    width: 100%;
+  }
+  .about-section-top .medium-6 img {
+    margin-top: 1.8rem;
+  }
+  .mission-vision ul {
+    margin-bottom: 0px;
+  }
+  .mission-vision .medium-4 {
+    display: none;
+  }
+  .mission-vision,
+  .footer-top {
+    background-image: none;
+  }
+  .section-title {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    text-align: center;
+  }
+  .section-title h2 span,
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title h2 {
+    margin-bottom: 5px;
+    display: block;
+  }
+  .section-title h2:after {
+    display: none;
+  }
+  .brand-logo {
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 25px;
+    height: 60px;
+  }
+  .brand-logo .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  .projects-wrap .project {
+    width: 50%;
+  }
+  .projects-wrap .project .project-detail {
+    padding-top: 79px;
+    padding-bottom: 79px;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .testimonials-box .owl-controls {
+    bottom: -25px;
+  }
+  .product-img.thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  .pro-rating.float-right {
+    float: none !important;
+    margin-top: 10px;
+  }
+  .main-banner .banner-form,
+  .main-banner .banner-image {
+    display: none;
+  }
+  .banner-text h2 span,
+  .banner-text h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  .banner-text {
+    width: 100%;
+  }
+  .transparent-background-one,
+  .transparent-background {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .banner-text h3,
+  .banner-text h3 i {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .service-banner img {
+    width: 26%;
+  }
+  .medium-4 .news-date p {
+    margin-left: 0px;
+  }
+  .services-box h2 {
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .services-box p {
+    text-align: center;
+  }
+  .call-box {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  .section-title .button {
+    margin-bottom: 15px !important;
+    float: none !important;
+  }
+  .header .medium-6 .icon-box {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .footer-top .columns {
+    width: 33%;
+  }
+  .sidebar.medium-4 {
+    width: 38%;
+  }
+  .sidebar.medium-3 {
+    width: 33%;
+  }
+  .reason-section .medium-9,
+  .single-post .medium-9,
+  .single-service .medium-9 {
+    width: 67%;
+  }
+  .why-choose-us {
+    /* z-index:auto; */
+  }
+  .why-choose-us .medium-6,
+  .single-products-page .medium-9 {
+    width: 100%;
+  }
+  .single-products-page .sidebar {
+    display: none;
+  }
+  .post-share {
+    display: none;
+  }
+  .appointment-page .medium-8,
+  .single-service .medium-8 {
+    width: 62%;
+  }
+  .pricing-table-wrapper .columns {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+  }
+  .pricing-table-wrapper .medium-3 {
+    width: 50%;
+  }
+  .why-choose-us {
+    overflow: hidden;
+  }
+}
